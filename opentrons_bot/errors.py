@@ -1,4 +1,4 @@
-class BaseException(Exception):
+class OpentronsBotException(Exception):
     def __init__(self, msg: str) -> None:
         self._msg = msg
 
