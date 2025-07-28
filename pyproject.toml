@@ -1,10 +1,11 @@
 [project]
-name = "opentrons-bot"
+name = "opentrons_bot"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "XiaoLing"}
+  { name = "xiaoling", email = "samuel.ling.xiao@qq.com" }
 ]
+packages = [{include = "opentrons/*"}]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
